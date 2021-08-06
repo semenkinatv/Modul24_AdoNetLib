@@ -3,7 +3,7 @@ using System;
 
 namespace Modul24_AdoNetModuleConsole
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
