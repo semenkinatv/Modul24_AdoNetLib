@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul24_AdoNetLib", "Modul24_AdoNetLib\Modul24_AdoNetLib.csproj", "{42D95F10-F2DC-4B84-BF78-53F58F9CEC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul24_AdoNetModuleConsole", "Modul24_AdoNetModuleConsole\Modul24_AdoNetModuleConsole.csproj", "{254FE4F5-AF7F-483F-80B9-2BD12F5CC4A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42D95F10-F2DC-4B84-BF78-53F58F9CEC85} = {42D95F10-F2DC-4B84-BF78-53F58F9CEC85}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D95F10-F2DC-4B84-BF78-53F58F9CEC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D95F10-F2DC-4B84-BF78-53F58F9CEC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D95F10-F2DC-4B84-BF78-53F58F9CEC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D95F10-F2DC-4B84-BF78-53F58F9CEC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254FE4F5-AF7F-483F-80B9-2BD12F5CC4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254FE4F5-AF7F-483F-80B9-2BD12F5CC4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254FE4F5-AF7F-483F-80B9-2BD12F5CC4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254FE4F5-AF7F-483F-80B9-2BD12F5CC4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0185D190-309F-4CDA-BF3E-E554EBCD4601}
+	EndGlobalSection
+EndGlobal
